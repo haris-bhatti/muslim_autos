@@ -92,7 +92,11 @@ function Hero({ onLead }){
         </motion.div>
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.15, duration:0.6}} className="relative">
           <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
-            <img src="https://images.unsplash.com/photo-1502876778430-88b5434b23aa?w=1600" alt="Hero" className="w-full h-full object-cover"/>
+            <img
+  src="https://images.unsplash.com/photo-1502876778430-88b5434b23aa?auto=format&fit=crop&w=1600&q=80"
+  alt="Hero"
+  className="w-full h-full object-cover"
+/>
           </div>
           <div className="absolute bottom-4 right-4">
             <span className="badge">2025 Lineup</span>
