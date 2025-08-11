@@ -93,7 +93,7 @@ function Hero({ onLead }){
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.15, duration:0.6}} className="relative">
           <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
   		<img
-  		src="https://picsum.photos/1600/1200"
+  		src="https://okla.com.pk/wp-content/uploads/2024/06/omo-performace.jpg"
   		alt="Hero"
   		className="w-full h-full object-cover"
 		/>
