@@ -1,0 +1,1 @@
+export function Modal({open,onClose,title,children}){if(!open) return null;return <div className='modal-backdrop' onClick={onClose}><div className='modal' onClick={e=>e.stopPropagation()}>{title?<div className='text-lg font-semibold mb-2'>{title}</div>:null}{children}</div></div>}
