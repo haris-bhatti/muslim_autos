@@ -1,0 +1,8 @@
+export function Button({ children, variant='primary', className='', ...props }){
+  const v = variant === 'outline' ? 'btn btn-outline' : 'btn btn-primary'
+  return <button className={`${v} ${className}`} {...props}>{children}</button>
+}
+export function ButtonLink({ children, href, variant='primary', className='', ...props }){
+  const v = variant === 'outline' ? 'btn btn-outline' : 'btn btn-primary'
+  return <a href={href} className={`${v} ${className}`} {...props}>{children}</a>
+}
